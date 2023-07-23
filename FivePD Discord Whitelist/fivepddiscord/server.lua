@@ -9,7 +9,8 @@ AddEventHandler('discordcheck:fivepdrequest', function()
         for i = 1, #roles do
             for j = 1, #allowedRoles do
                 if roles[i] == allowedRoles[j] then
-                    return true
+                    isAllowed = true
+                    goto done
                 end
             end
         end
@@ -17,5 +18,6 @@ AddEventHandler('discordcheck:fivepdrequest', function()
         local pname = GetPlayerName(source)
         print("[FivePD Discord] Unable to get discord roles for "..pname.."!")
     end
+    ::done::
     TriggerClientEvent('discordcheck:fivepdreturn', source, isAllowed)
 end)

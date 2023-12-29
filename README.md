@@ -7,7 +7,7 @@ Badger discord API
 https://github.com/JaredScar/Badger_Discord_API
 
 
-Verified settings;
+**Verified settings;**
 
 Onesync - Infinity: Yes, Legacy: Yes
 

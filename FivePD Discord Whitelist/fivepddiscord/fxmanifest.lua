@@ -4,7 +4,7 @@ game 'gta5'
 
 author 'grandpa_rex'
 description 'A script that checks discord roles for access to FivePD'
-version '1.0.0'
+version '1.5.0'
 
 server_scripts {
     'server.lua',

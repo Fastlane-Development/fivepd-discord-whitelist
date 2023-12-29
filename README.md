@@ -8,6 +8,7 @@ https://github.com/JaredScar/Badger_Discord_API
 
 
 Verified settings;
+
 Onesync - Infinity: Yes, Legacy: Yes
 
 Server Artifacts - 6683
